@@ -1,2 +1,3 @@
-# COMMAND LINE CHALLENGE 
-Command Line Challenge is a pretty cool game challenging you on Bash skills. Everything is done via the command line and the questions are becoming increasingly complicated. It’s a good training to improve your command line skills!
+# COMMAND LINE CHALLENGE :egg:
+
+Command Line Challenge is a pretty cool game. As you play the questions are becomes increasingly complicated. It’s a good training that will help to improve your bash skills. Have fun!
