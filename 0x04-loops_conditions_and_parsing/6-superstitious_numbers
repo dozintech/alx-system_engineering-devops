@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+#This script loops through the numbers 1 - 20, on the 4th line
+#it displays "bad luck from china" on the 9th line it displays
+#"badluck from japan", on the 17th line it displays "badluck from Italy"
+i=0
+while [[ $i -lt 20 ]]; do
+  case "$i" in
+    "3")
+      echo -e "4\nbad luck from China"
+      ;;
+    "8")
+      echo -e "9\nbad luck from Japan"
+      ;;
+    "16")
+      echo -e "17\nbad luck from Italy"
+      ;;
+    *)
+    echo "$((i + 1))"
+  esac
+  i="$((i + 1))"
+done

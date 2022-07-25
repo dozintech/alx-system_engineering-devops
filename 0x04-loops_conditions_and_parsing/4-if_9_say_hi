@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#"this file prints  10 lines, "Best School" and "Hi" on the 9th iteration
+i=0
+while [[ $i -lt 10 ]]; do
+	echo "Best School"
+	if [[ $i -eq 8 ]]; then
+		echo "Hi"
+	fi
+	i="$((i + 1))"
+done
