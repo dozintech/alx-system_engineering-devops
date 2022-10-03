@@ -3,7 +3,6 @@
 # The redirection must be a “301 Moved Permanently”
 
 sudo apt-get -y update
-sudo apt-get -y upgrade
 sudo apt-get -y install nginx
 
 echo "Holberton School" | sudo tee /var/www/html/index
